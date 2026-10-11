@@ -5,15 +5,15 @@ description = "TrendRadar - 热点新闻聚合与分析工具"
 requires-python = ">=3.12"
 dependencies = [
     "requests==2.34.2",
-    "pytz==2026.3.post1",
+    "pytz==2026.5",
     "PyYAML==6.0.3",
-    "fastmcp==3.4.5",
-    "websockets==16.1.1",
-    "feedparser==6.0.12",
-    "boto3==1.43.57",
-    "litellm==1.93.0",
-    "json-repair==0.61.7",
-    "tenacity==9.1.4",
+    "fastmcp==4.1.0",
+    "websockets==17.2",
+    "feedparser==6.0.14",
+    "boto3==1.43.110",
+    "litellm==1.104.2",
+    "json-repair==0.63.5",
+    "tenacity==9.2.1",
 ]
 
 [project.scripts]
